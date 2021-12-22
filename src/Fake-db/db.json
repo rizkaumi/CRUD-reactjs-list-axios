@@ -1,0 +1,63 @@
+{
+  "pengguna": [
+    {
+      "id": 1,
+      "username": "test",
+      "email": "ane@gmail.com",
+      "password": "password"
+    },
+    {
+      "username": "a",
+      "email": "Prosigmaka@gmail.com",
+      "password": "a",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "username": "ab",
+      "email": "Prosigmaka@gmail.com",
+      "password": "ab",
+      "id": 4
+    }
+  ],
+  "candidate": [
+    {
+      "nama": "Aldy Gunawan",
+      "jenisKelamin": "Laki-laki",
+      "tempatLahir": "sa",
+      "tanggalLahir": "2021-04-24",
+      "alamat": "Gunung",
+      "email": "aaaa@gmail.com",
+      "noHp": "+6282838383883",
+      "id": 1
+    }
+  ],
+  "recipes": [
+    {
+      "tittle": "Sesame-crumbed",
+      "content": "Master this Japanese classic, with a fresh radish salad. Serve with miso soup and steamed rice to recreate a typical restaurant spread.",
+      "image": "https://img.delicious.com.au/qWqOljcm/del/2015/10/sesame-crumbed-pork-cutlets-with-quick-tonkatsu-sauce-14972-1.jpg",
+      "id": 15
+    },
+    {
+      "tittle": "Hot soba in broth with crispy miso",
+      "content": "If you are serving it as a roast, dry the pork belly out overnight in the fridge, uncovered.",
+      "image": "https://img.delicious.com.au/g3VBO8ym/del/2018/08/hot-soba-in-broth-with-crispy-miso-pork-belly-84665-3.jpg",
+      "id": 18
+    },
+    {
+      "tittle": "Salmon, ginger and soba noodle stir-fry",
+      "content": "Dinner is ready in a flash with this wok-fried salmon and soba noodle recipe.",
+      "image": "https://img.delicious.com.au/QwcP5KVm/del/2015/10/salmon-ginger-and-soba-noodle-stir-fry-14003-1.jpg",
+      "id": 19
+    },
+    {
+      "tittle": "Roast yuzu chicken with Japanese slaw",
+      "content": "Enjoy the subtle flavours of yuzu, a citrus fruit of East Asia. The roast chicken is marinated in ",
+      "image": "https://img.delicious.com.au/lOG8oKFi/del/2015/10/roast-yuzu-chicken-with-japanese-slaw-13893-1.jpg",
+      "id": 20
+    }
+  ]
+}
