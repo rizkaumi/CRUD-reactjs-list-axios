@@ -36,6 +36,18 @@
   ],
   "recipes": [
     {
+      "id":1,
+      "tittle":"Teriyaki salmon with pickled vegetables",
+      "content":"For those of us who can't have gluten, this recipe for teriyaki salmon with pickled vegetables is a Japanese-inspired delight.",
+      "image":"https://img.delicious.com.au/_tUY7MLQ/del/2015/10/teriyaki-salmon-with-pickled-vegetables-11948-1.jpg"
+    },
+    {
+      "id":2,
+      "tittle":"Smoked salmon sushi",
+      "content":"This is sushi you can make at home without the fancy equipment or years of practice.",
+      "image":"https://img.delicious.com.au/L1zluKto/del/2015/10/smoked-salmon-sushi-10501-1.jpg"
+    },
+    {
       "tittle": "Sesame-crumbed",
       "content": "Master this Japanese classic, with a fresh radish salad. Serve with miso soup and steamed rice to recreate a typical restaurant spread.",
       "image": "https://img.delicious.com.au/qWqOljcm/del/2015/10/sesame-crumbed-pork-cutlets-with-quick-tonkatsu-sauce-14972-1.jpg",
