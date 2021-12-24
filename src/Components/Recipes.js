@@ -33,8 +33,7 @@ function Recipes() {
     setFormData(data)
   };
 
-  const postHandler = async(e) => {
-    e.preventDefault();
+  const postHandler = async() => {
     const data = { tittle:formData.tittle, content:formData.content , image:formData.image };
  
     const response = await axios.post(url, data);
@@ -56,14 +55,12 @@ function Recipes() {
     setRefresh(!refresh)
   }
   const [open, setOpen] = React.useState(false);
-  const openHandler = e => {
-    e.preventDefault();
+  const openHandler = () => {
     setOpen(true)
   }
 
 
-  const closeHandler = e => {
-    e.preventDefault();
+  const closeHandler = () => {
     setOpen(false)
   }
 

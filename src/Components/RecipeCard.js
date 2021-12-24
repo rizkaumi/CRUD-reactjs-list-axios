@@ -48,7 +48,6 @@ function RecipeCard({card, refresh, setRefresh}){
     }
 
     const deleteHandler = async() => {
-        
         const response = await axios.delete(
           `http://localhost:3000/recipes/${card.id}`
         );
@@ -60,8 +59,7 @@ function RecipeCard({card, refresh, setRefresh}){
     }
 
 
-    const putHandler = async(e) => {
-        e.preventDefault();
+    const putHandler = async() => {
         const data = { tittle:formData.tittle, content:formData.content , image:formData.image };
         const response = await axios.put(
             `http://localhost:3000/recipes/${card.id}`, data
