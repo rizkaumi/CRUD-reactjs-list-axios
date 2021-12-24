@@ -33,8 +33,7 @@ function RecipeCard({card, refresh, setRefresh}){
     
       const [open, setOpen] = React.useState(false);
       
-    const openHandler = e => {
-        e.preventDefault();
+    const openHandler = () => {
         setFormData({
             tittle:card.tittle,
             content: card.content,
@@ -44,13 +43,12 @@ function RecipeCard({card, refresh, setRefresh}){
     }
     
     
-    const closeHandler = e => {
-        e.preventDefault();
+    const closeHandler = () => {
         setOpen(false)
     }
 
-    const deleteHandler = async(e) => {
-        e.preventDefault();
+    const deleteHandler = async() => {
+        
         const response = await axios.delete(
           `http://localhost:3000/recipes/${card.id}`
         );
