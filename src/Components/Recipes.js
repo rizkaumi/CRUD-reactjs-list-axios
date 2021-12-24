@@ -127,7 +127,6 @@ function Recipes() {
               <RecipeCard 
                 key={card.id} 
                 card={card}
-                refresh={refresh}
                 setRefresh={setRefresh}/>
             ))}
           </Grid>
